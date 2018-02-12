@@ -74,7 +74,7 @@ public class ImpresorLCD {
 
     
     /**
-     * Tamaño de la impresion (entre 1 y 10)
+     * TamaÃ±o de la impresion (entre 1 y 10)
      */
     private int size;
 
@@ -140,12 +140,12 @@ public class ImpresorLCD {
 
     /**
      *
-     * Metodo encargado de añadir una linea a la matriz de Impresion
+     * Metodo encargado de aÃ±adir una linea a la matriz de Impresion
      *
      * @param matriz Matriz Impresion. 
      * @param posInicial Punto Pivote
      * @param direccionXY string que indica si se debe dibujar en x o y
-     * @param size Tamaño Segmento
+     * @param size TamaÃ±o Segmento
      * @param caracter Caracter Segmento ("-" o "|")
      */    
     public void adicionarLinea(String[][] matriz, int[] posInicial, String direccionXY,
@@ -336,7 +336,7 @@ public class ImpresorLCD {
    	 	// crea el arreglo de digitos
         digitos = this.caracteres.toCharArray();
         
-        //crea los pivotes y posteriormente añade el digito a la matriz
+        //crea los pivotes y posteriormente aÃ±ade el digito a la matriz
         for (char digito : digitos) {
             
             int numero = Integer.parseInt(String.valueOf(digito));
@@ -605,7 +605,7 @@ public class ImpresorLCD {
     
     /**
      * Metodo que da el pivote 4
-     * @return
+     * @return pf4
      */
     public int[] darPf4() {
     	return pf4;
@@ -613,7 +613,7 @@ public class ImpresorLCD {
     
     /**
      * Metodo que da el pivote 5
-     * @return
+     * @return pf5
      */
     public int[] darPf5() {
     	return pf5;
