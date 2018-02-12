@@ -4,6 +4,7 @@ Buen dia,
 Presento la solucion al reto ImpresorLCD a la cual añadi algunas pruebas automaticas para validar la funcionalidad del programa.
 
 Espero sea de su agrado,
+
 Cordialmente,
 
 Andres Arevalo.
